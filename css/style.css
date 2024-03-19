@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+    overflow-x: hidden !important;
+}
+.black {
+    background-color: black;
+    background-image: url("../image/vector.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+header {
+    color: white;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 700;
+}
+.pad {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.header_flex {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.the_name {
+    font-size: 32px;
+}
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    font-weight: 500;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.header_nav a {
+    color: #b8b8b8 !important;
+}
+.sign_flex {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    font-weight: 500;
+}
+.sign_flex img {
+    width: 32px;
+}
+
+/* FIRST PAGE */
+
+.first_page {
+    display: flex;
+    color: white;
+}
+.text_box {
+    width: 50%;
+}
+.text_box h1 {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 900;
+    font-size: 120px;
+}
+.text_box h1 span {
+    color: #cbfc01;
+}
+.text_box h2 {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: white;
+}
+.text_box h2 span {
+    color: #cbfc01;
+}
+.text_box h4 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+    color: #cbfc01;
+    font-size: 30px;
+}
+.text_p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    color: #b8b8b8;
+    font-size: 30px;
+}
+.first_image {
+    width: 40vw;
+}
+.first_btn {
+    width: 350px;
+    height: 100px;
+    background-color: #cbfc01;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.first_btn img {
+    width: 50px;
+    margin-left: 30px;
+}
+
+/* SECOND PAGE */
+
+.second_page {
+    height: 300px;
+    background-color: #cbfc01;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+/* THIRD PAGE */
+
+.third_page {
+    margin-top: 100px;
+    display: flex;
+}
+.third_blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.block {
+    width: 390px;
+    height: 600px;
+    border: 1px solid #2e2e2e;
+    padding: 40px;
+}
+.block_h6 {
+    color: white;
+    font-size: 40px;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.block_btn_wrap {
+    position: relative;
+    height: 27%;
+}
+.block_btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.block_grey {
+    background-color: #2e2e2e;
+}
+
+/* FOURTH PAGE */
+
+.fourth_page {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.stats {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.fat_text {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 700 !important;
+    font-size: 40px !important;
+}
+.green {
+    font-family: "Rubik", sans-serif;
+    color: #cbfc01;
+    font-size: 20px;
+    font-weight: 300;
+}
+.map {
+    width: 40%;
+}
+
+/* FIFTH PAGE */
+
+.fifth_page {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.service {
+    margin-left: 50px;
+    width: 40%;
+}
+
+/* SIXTH PAGE */
+
+.sixth_page {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.sixth_block {
+    height: 400px;
+    width: 33%;
+    padding: 70px;
+    padding-bottom: 130px;
+}
+.sixth_link {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 700;
+    width: 150px;
+}
+
+/* SEVENTH PAGE */
+
+.seventh_page {
+    background-color: #cbfc01;
+    margin-top: 200px;
+    background-image: url("../image/vector_green.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.seventh_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.seventh_box {
+    width: 70%;
+}
+.seventh_logo {
+    font-weight: 300 !important;
+}
+.arrows img {
+    height: 100px;
+    width: 100px;
+}
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 600px;
+    position: relative;
+    right: 300px;
+    width: 130%;
+}
+.carousel_block {
+    width: 700px;
+    height: 300px;
+    background-color: black;
+    padding: 30px;
+    margin-left: 30px;
+}
+.white {
+    color: white;
+}
+
+/* EIGHT PAGE */
+
+.eight_page {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.green_box {
+    background-color: #cbfc01;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.green_box_text {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+}
+.last_btn {
+    width: 350px;
+    height: 100px;
+    background-color: black;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    color: #cbfc01;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+/* FOOTER */
+
+.footer_back {
+    background-image: url("../image/vector.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.footer {
+    display: flex;
+    color: #b8b8b8;
+    justify-content: space-between;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    height: 400px;
+}
+.foot_small_text {
+    color: #b8b8b8 !important;
+    font-size: 30px;
+}
+.foot_mid_text {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 300;
+}
+.foot_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 300px;
+}
+.financex {
+    color: white !important;
+}
+.social img {
+    width: 32px;
+    height: 32px;
+    margin-right: 20px;
+}
+.mail {
+    display: flex;
+}
+.input {
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.7;
+    padding: 10px;
+    font-size: 20px;
+}
+.send {
+    background-color: #cbfc01;
+    height: 70px;
+    width: 150px;
+    position: relative;
+    top: 2px;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.warning {
+    font-size: 20px;
+    opacity: 0.7;
+}
+.finale_wrap {
+    display: flex;
+    justify-content: center;
+}
+.finale {
+    color: #b8b8b8;
+    font-size: 24px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: "Satoshi", sans-serif;
+    src: url("../font/Satoshi-Variable.ttf");
+}
