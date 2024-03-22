@@ -2,6 +2,9 @@ body {
     margin: 0;
     overflow-x: hidden !important;
 }
+img {
+    align-self: center;
+}
 .black {
     background-color: black;
     background-image: url("../image/vector.png");
@@ -14,6 +17,14 @@ header {
     color: white;
     font-family: "Satoshi", sans-serif;
     font-weight: 700;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 90;
+    background-color: black;
+    padding-left: 200px;
+    padding-right: 200px;
+    right: 0;
 }
 .pad {
     padding-left: 100px;
@@ -39,8 +50,17 @@ a {
     text-decoration: none;
     color: white;
 }
+footer a {
+    width: max-content;
+}
+footer a:hover {
+    border-bottom: 1px solid #b8b8b8;
+}
 .header_nav a {
     color: #b8b8b8 !important;
+}
+.header_nav a:hover {
+    border-bottom: 1px solid #b8b8b8;
 }
 .sign_flex {
     display: flex;
@@ -59,6 +79,7 @@ a {
 .first_page {
     display: flex;
     color: white;
+    margin-top: 70px;
 }
 .text_box {
     width: 50%;
@@ -215,10 +236,24 @@ a {
     padding: 70px;
     padding-bottom: 130px;
 }
+.sixth_img {
+    width: 64px;
+    height: 64px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .sixth_link {
     font-family: "Satoshi", sans-serif;
     font-weight: 700;
     width: 150px;
+}
+.sixth_block:hover {
+    background-color: #2e2e2e;
+}
+.sixth_block:hover > .sixth_img {
+    background-color: #cbfc01;
 }
 
 /* SEVENTH PAGE */
